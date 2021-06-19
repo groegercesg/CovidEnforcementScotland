@@ -1,0 +1,13 @@
+A = {"Moray", "Aberdeenshire", "Aberdeen City"}
+C = {"Stirling", "Clackmannanshire", "Falkirk"}
+D = {"Angus", "Dundee City", "Perth and Kinross"}
+E = {"City of Edinburgh"}
+G = {"East Renfrewshire", "Glasgow City", "East Dunbartonshire"}
+J = {"Scottish Borders", "East Lothian", "Midlothian", "West Lothian"}
+K = {"Inverclyde", "Renfrewshire"}
+L = {"Argyll and Bute", "West Dunbartonshire"}
+N = {"Na h-Eileanan Siar", "Orkney Islands", "Highland", "Shetland Islands"}
+P = {"Fife"}
+Q = {"South Lanarkshire", "North Lanarkshire"}
+U = {"South Ayrshire", "East Ayrshire", "North Ayrshire"}
+V = {"Dumfries and Galloway"}
