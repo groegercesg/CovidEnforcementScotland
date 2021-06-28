@@ -1,5 +1,11 @@
 # CovidEnforcementScotland
 
+## Todo
+
+- Make text for the date range not be cut off
+- Do we have to remake the map twice, as we do not, triggered once by selection and again by final resting point
+- Recency of date, we talk about when the range of the data, we can do this programmatically
+
 ## Data Providence
 
 Covid Enforcement Data: 
