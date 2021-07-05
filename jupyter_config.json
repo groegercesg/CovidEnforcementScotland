@@ -1,6 +1,3 @@
 {
-    "VoilaConfiguration": {
-        "template": "material",
-        "theme": "dark"
-    }
+    "VoilaConfiguration": {}
 }
