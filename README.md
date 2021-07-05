@@ -6,6 +6,7 @@
 
 ### *"Arrgh this is taking forever"*
 
+- **This takes 70 seconds to load**
 - Check "Build Logs", if it says: `failed to connect to event stream` then reload the website.
 - Be a bit more patient, it does naturally take a while - there's a lot of data to crunch and metre accurate maps to create.
 
@@ -22,12 +23,16 @@
     - Update readme
     - Binder setup
     - Finalise description on side bar of HTML
+    - Change title
 - [ ] Pull in data about police numbers
     - Put this in as an option for comparative visualisation
     - Data from: https://www.scotland.police.uk/about-us/police-scotland/police-scotland-officer-numbers/
 - [ ] Check and download new data
     - Every time this runs, it should check to see if there's new data.
     - For the CVI enforcement
+- [ ] Implement a darkmode
+    - Maybe we could use `--theme=dark` and then make the Cartopy output background transparent
+    - Maybe it should have always been transparent?
 - [ ] Make text for the date range not be cut off
     - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
 
