@@ -24,6 +24,14 @@
 
 ## Update Requirements
 
+### Now we use Conda
+
+From our conda environment (my local one is called: `MAIN`), we can export the requirements to `environment.yml` using the command:
+
+- `$ conda env export -n MAIN > environment.yml`
+
+### Old Steps
+
 Requirements are stored in `requirements.in` these are then generated into a frozen: `requirements.txt` file to be used by Binder. To Update Requirements:
 
 - Take the new module and put into `requirements.in`
