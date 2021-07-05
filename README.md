@@ -24,6 +24,8 @@
 
 ## Update Requirements
 
+- We need to add in `voila`
+
 ### Now we use Conda
 
 From our conda environment (my local one is called: `MAIN`), we can export the requirements to `environment.yml` using the command:

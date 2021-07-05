@@ -1,0 +1,9 @@
+# requirements.in
+pandas
+numpy
+matplotlib
+ipywidgets
+IPython
+datetime
+cartopy
+voila
