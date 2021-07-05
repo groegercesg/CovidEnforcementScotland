@@ -1,5 +1,14 @@
 # CovidEnforcementScotland
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/groegercesg/CovidEnforcementScotland/HEAD?urlpath=voila%2Frender%2Fvoila_map.ipynb)
+
+## Help
+
+### *"Arrgh this is taking forever"*
+
+- Check "Build Logs", if it says: `failed to connect to event stream` then reload the website.
+- Be a bit more patient, it does naturally take a while - there's a lot of data to crunch and metre accurate maps to create.
+
 ## Todo
 
 - [x] Do we have to remake the map twice, as we do not, triggered once by selection and again by final resting point
@@ -9,7 +18,7 @@
 - [x] Absolute handling:
     - Turn all mentions of absolute, into "Total"
     - Do it in the RHS text as well
-- [ ] First release
+- [x] First release
     - Update readme
     - Binder setup
     - Finalise description on side bar of HTML
@@ -22,21 +31,33 @@
 - [ ] Make text for the date range not be cut off
     - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
 
-## Update Requirements
+## Updating Packages
 
-- We need to add in `voila`
+We have packages required for the deployment on [Binder](https://mybinder.org/), but due to the complexities of Cartopy being difficult we need to list our packages in two different ways: [Conda](https://docs.conda.io/en/latest/) and [requirements.txt](https://github.com/binder-examples/requirements)
 
-### Now we use Conda
+### For Conda
 
 From our conda environment (my local one is called: `MAIN`), we can export the requirements to `environment.yml` using the command:
 
 - `$ conda env export -n MAIN > environment.yml`
+- Next add the following line to the file:
+    ```
+    ...
+    pip:
+        ...
+        voila==0.2.10
+    ```
 
-### Old Steps
+### For Requirements.txt
 
 Requirements are stored in `requirements.in` these are then generated into a frozen: `requirements.txt` file to be used by Binder. To Update Requirements:
 
 - Take the new module and put into `requirements.in`
+- Next add the following line to the file:
+    ```
+    ...
+    voila
+    ```
 - Then run the console command: `$ pip-compile requirements.in`
 
 ## Data Providence
