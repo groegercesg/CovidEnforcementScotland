@@ -3,12 +3,10 @@
 ## Todo
 
 - [x] Do we have to remake the map twice, as we do not, triggered once by selection and again by final resting point
-- [ ] Make text for the date range not be cut off
-    - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
 - [x] Recency of data, we talk about when the range of the data, we can do this programmatically
     - Redo the description
     - Make better reference of the classifications
-- [ ] Absolute handling:
+- [x] Absolute handling:
     - Turn all mentions of absolute, into "Total"
     - Do it in the RHS text as well
 - [ ] First release
@@ -21,6 +19,8 @@
 - [ ] Check and download new data
     - Every time this runs, it should check to see if there's new data.
     - For the CVI enforcement
+- [ ] Make text for the date range not be cut off
+    - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
 ## Data Providence
 
 Covid Enforcement Data: 
