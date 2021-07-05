@@ -21,6 +21,14 @@
     - For the CVI enforcement
 - [ ] Make text for the date range not be cut off
     - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
+
+## Update Requirements
+
+Requirements are stored in `requirements.in` these are then generated into a frozen: `requirements.txt` file to be used by Binder. To Update Requirements:
+
+- Take the new module and put into `requirements.in`
+- Then run the console command: `$ pip-compile requirements.in`
+
 ## Data Providence
 
 Covid Enforcement Data: 
