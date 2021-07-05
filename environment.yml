@@ -87,5 +87,5 @@ dependencies:
     - pandas==1.2.4
     - pytz==2021.1
     - xlrd==2.0.1
-   - voila==0.2.10
+    - voila==0.2.10
 prefix: /home/callum/.conda/envs/MAIN
