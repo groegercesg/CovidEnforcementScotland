@@ -27,11 +27,15 @@
 - [ ] Pull in data about police numbers
     - Put this in as an option for comparative visualisation
     - Data from: https://www.scotland.police.uk/about-us/police-scotland/police-scotland-officer-numbers/
+- [ ] Average number of "enforcement type" per day
+    - take Number of "enforcement type" in period given by slider
+    - divide by number of days
+    - to get average
+- [ ] Implement a darkmode
+    - Maybe we could use `--theme=dark` and then make the Cartopy output background transparent
 - [ ] Check and download new data
     - Every time this runs, it should check to see if there's new data.
     - For the CVI enforcement
-- [ ] Implement a darkmode
-    - Maybe we could use `--theme=dark` and then make the Cartopy output background transparent
     - Maybe it should have always been transparent?
 - [ ] Make text for the date range not be cut off
     - ❌ This can't be done, see: https://github.com/jupyter-widgets/ipywidgets/issues/2318
@@ -64,6 +68,8 @@ Requirements are stored in `requirements.in` these are then generated into a fro
     voila
     ```
 - Then run the console command: `$ pip-compile requirements.in`
+
+## File List
 
 ## Data Providence
 
