@@ -27,7 +27,7 @@
 - [x] Pull in data about police numbers
     - Put this in as an option for comparative visualisation
     - Data from: https://www.scotland.police.uk/about-us/police-scotland/police-scotland-officer-numbers/
-- [ ] Average number of "enforcement type" per day
+- [x] Average number of "enforcement type" per day
     - take Number of "enforcement type" in period given by slider
     - divide by number of days
     - to get average
