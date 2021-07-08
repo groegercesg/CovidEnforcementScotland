@@ -24,7 +24,7 @@
     - Binder setup
     - Finalise description on side bar of HTML
     - Change title
-- [ ] Pull in data about police numbers
+- [x] Pull in data about police numbers
     - Put this in as an option for comparative visualisation
     - Data from: https://www.scotland.police.uk/about-us/police-scotland/police-scotland-officer-numbers/
 - [ ] Average number of "enforcement type" per day
