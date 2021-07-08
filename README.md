@@ -69,6 +69,12 @@ Requirements are stored in `requirements.in` these are then generated into a fro
     ```
 - Then run the console command: `$ pip-compile requirements.in`
 
+## Visualisation Explanations
+
+### Officer Numbers
+
+Police Scotland supplement local police officer resources by specialist resources that are organised at a regional and national level. As such exact numbers of individual officers within a Division may fluctuate due to operational demands. These allocations, understandably, aren't published and hence the decision has been taken to not include these supplemental regional and national resources in our officer numbers.
+
 ## File List
 
 ## Data Providence
