@@ -46,6 +46,10 @@ We have packages required for the deployment on [Binder](https://mybinder.org/),
 
 ### For Conda
 
+#### Updating conda
+
+`$ conda update -n MAIN --all`
+
 From our conda environment (my local one is called: `MAIN`), we can export the requirements to `environment.yml` using the command:
 
 - `$ conda env export -n MAIN > environment.yml`
@@ -58,6 +62,10 @@ From our conda environment (my local one is called: `MAIN`), we can export the r
     ```
 
 ### For Requirements.txt
+
+#### Updating PIP
+
+`$ pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U`
 
 Requirements are stored in `requirements.in` these are then generated into a frozen: `requirements.txt` file to be used by Binder. To Update Requirements:
 
